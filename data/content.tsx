@@ -38,7 +38,7 @@ export const APP_SECTIONS: SectionData[] = [
       },
       {
         id: 2,
-        frontText: "سلة المهملات صديقتي!",
+        frontText: "أهمية سلة المهملات",
         FrontIcon: Trash2,
         backText: "أرمي فيها الأوراق والمناديل، وليس على الأرض.",
         BackIcon: CheckCircle2,
@@ -61,7 +61,7 @@ export const APP_SECTIONS: SectionData[] = [
     questions: [
       {
         id: 101,
-        questionText: "أين يجب أن تضع غلاف الحلوى بعد أكله؟",
+        questionText: "أين يجب أن تضعي غلاف الحلوى بعد أكله؟",
         options: [
           { id: 1, text: "في سلة المهملات", Icon: Trash2, isCorrect: true },
           { id: 2, text: "تحت المكتب", Icon: Footprints, isCorrect: false },
@@ -159,7 +159,7 @@ export const APP_SECTIONS: SectionData[] = [
         id: 2,
         frontText: "نظافة الطاولة",
         FrontIcon: HandPlatter,
-        backText: "أترك طاولتي نظيفة ليستخدمها زميلي الذي بعدي.",
+        backText: "أترك طاولتي نظيفة لتستخدمها زميلتي التي بعدي.",
         BackIcon: Sparkles,
       },
       {
@@ -173,7 +173,7 @@ export const APP_SECTIONS: SectionData[] = [
     questions: [
       {
         id: 301,
-        questionText: "ماذا تفعل بعد الانتهاء من الأكل في المقصف؟",
+        questionText: "ماذا تفعلين بعد الانتهاء من الأكل في المقصف؟",
         options: [
           { id: 1, text: "أترك البقايا وأذهب", Icon: XCircle, isCorrect: false },
           { id: 2, text: "أنظف مكاني وأرمي القمامة", Icon: CheckCircle2, isCorrect: true },

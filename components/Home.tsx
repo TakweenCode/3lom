@@ -23,7 +23,7 @@ const Home: React.FC<HomeProps> = ({ onSectionSelect, completedSections }) => {
           أهلاً بكم في <br/> <span className="text-kid-green">مدرستنا النظيفة!</span>
         </h2>
         <p className="text-2xl md:text-3xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
-          أنا <span className="font-bold text-kid-purple">صديقة البيئة</span>، هل أنتي مستعدة  للمحافظة على نظافة مدرستنا الجميلة؟
+          أنا <span className="font-bold text-kid-purple">صديقة البيئة</span>، هل أنتِ مستعدة للمحافظة على نظافة مدرستنا الجميلة؟
         </p>
       </div>
 

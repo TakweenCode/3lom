@@ -47,7 +47,7 @@ const SectionView: React.FC<SectionViewProps> = ({ section, onSectionComplete })
           className={`flex items-center gap-3 px-8 py-4 rounded-full text-2xl font-bold transition-all duration-300 transform hover:scale-105 ${mode === 'quiz' ? `bg-${section.themeColor} text-white shadow-lg ring-4 ring-${section.themeColor}/30` : 'bg-white text-gray-500 shadow-sm'}`}
         >
           <BrainCircuit size={32} />
-          اختبر نفسك
+          اختبري نفسكِ
         </button>
       </div>
 
