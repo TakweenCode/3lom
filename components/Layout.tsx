@@ -41,9 +41,14 @@ const Layout: React.FC<LayoutProps> = ({ children, onHomeClick, showHomeButton, 
 
       {/* Footer - SPECIFIC REQUIREMENT */}
       <footer className="bg-kid-purple text-white p-4 text-center border-t-4 border-purple-400">
-        <p className="font-bold text-lg md:text-xl">
-          عمل الطالبة تالين المالكي - الصف 6أ
-        </p>
+        <div className="flex flex-col gap-2">
+          <p className="font-bold text-lg md:text-xl">
+            عمل الطالبة تالين المالكي - الصف 6أ
+          </p>
+          <p className="font-bold text-lg md:text-xl">
+            إشراف المعلمة ايمان القحطاني
+          </p>
+        </div>
       </footer>
     </div>
   );
