@@ -39,12 +39,21 @@ const Layout: React.FC<LayoutProps> = ({ children, onHomeClick, showHomeButton, 
         {children}
       </main>
 
-      {/* Footer - SPECIFIC REQUIREMENT */}
-      <footer className="bg-kid-purple text-white p-4 text-center border-t-4 border-purple-400">
-        <div className="flex flex-col gap-2">
-          <p className="font-bold text-lg md:text-xl">
-            عمل الطالبة تالين المالكي - الصف 6أ
-          </p>
+      {/* Footer - Updated Student List */}
+      <footer className="bg-kid-purple text-white p-6 text-center border-t-4 border-purple-400">
+        <div className="flex flex-col gap-4">
+          <div>
+            <p className="font-bold text-xl md:text-2xl mb-2">
+              عمل طالبات الصف السادس أ
+            </p>
+            <p className="text-sm md:text-base leading-relaxed opacity-90 px-4 max-w-3xl mx-auto">
+              تالين المالكي، لين عبدالقوي، يارا الراجحي، تالا محمد، سارة الوالي، هيلة راشد،
+              استبرق، جوري الضيفاني، حلا العمودي، ديالا سمير، تغريد الداوودي
+            </p>
+          </div>
+          
+          <div className="w-32 h-1 bg-purple-300 mx-auto rounded-full opacity-30"></div>
+          
           <p className="font-bold text-lg md:text-xl">
             إشراف المعلمة ايمان القحطاني
           </p>
